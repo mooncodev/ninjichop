@@ -1,0 +1,39 @@
+[build]
+command = "npm run build"
+functions = "functions"
+publish="build"
+
+#base = "/"
+
+
+[dev]
+command = "npm run dev"
+
+# port: The port for the Netlify Dev server, the one you'll open in the browser.
+port = 3002
+# targetPort: The port for your application server, framework or site generator.
+# - matched with port setting in *both* .env and craco.config
+targetPort = 3001
+
+# framework = "#custom"
+
+[functions]
+# Directory with serverless functions, including background functions,
+# to deploy. This is relative to the base directory if one has been set,
+# or the root directory if a base hasn’t been set.
+directory = "/functions/"
+external_node_modules = ["date-fns","fs-extra","crypto","mongodb","stripe"]
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "http://*"
+  to = "https://:splat"
+  status = 301
+  force = true

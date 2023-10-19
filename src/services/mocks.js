@@ -1,0 +1,47 @@
+export const mockFxGetAccount1 = {
+  _balance:'4111000111000111000',
+  _xDivsAvailable:'111000111000111000',
+  _xDivsEarnedToDate:'111000111000111000',
+  _xDivsWithdrawnToDate:'111000111000111000',
+  _isAMMPair:false,
+  _isBlackListedBot:false,
+  _isExcludedFromRwds:false,
+  _isExcludedFromFees:false,
+  isFxClaimEligible:true,
+}
+export const mockEthBal = '131333666999333666999'
+
+export const mockHistory = {
+  'stx24bc42F':{
+    status:'created',
+    type:'',
+    from:'0xb8b12799c4a7ff8c3cf03fc5ad1ce7531a74b751',
+    to:'0x5fa54fddf1870c344dbfabb37dfab8700ec0def1',
+    path:['FrogeX','xClaim'],
+    value:'0',
+    args:['000000000000000000000000e6fe9ad50d777d23d22d3c2fb5b34cdcdbf7b1e8'],
+    hash:'0x66f47f7f700fd53c1d53ded5cc5b71c8e3d73029948ba189be321469f2122f3d',
+    rcpt: {},
+    confs:2,
+    error:[],
+    output:'',
+    t_created:1650018521238,
+    t_resolved:1650018531238,
+  },
+  'stx1ce7531a':{
+    status:'error',
+    type:'',
+    from:'0x0c7bd5826eeee6601db282c533ce01393cd68f15',
+    to:'0x5fa54fddf1870c344dbfabb37dfab8700ec0def1',
+    path:['FrogeX','approve'],
+    value:'0',
+    args:['000000000000000000000000e6fe9ad50d777d23d22d3c2fb5b34cdcdbf7b1e8'],
+    hash:'0xc939e68e5ba02a7863bc4b7d1154beee2396ee6cdf163cc06cb52fa62f473ca7',
+    rcpt: {},
+    confs:4,
+    error:[],
+    output:'',
+    t_created: 1650018501238,
+    t_resolved:1650018509238,
+  },
+}
