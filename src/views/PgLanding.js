@@ -54,7 +54,7 @@ export default function PgLanding() {
               <strong>Ninjichop LLC</strong> is a full-stack, full-service applications development company based out of Whitesburg, Kentucky.
             </Text>
             <Text>
-              This page is a placeholder for a formal site for the company, and is not meant to represent my capabilities as a developer!
+              This page is a placeholder for a formal site for the company, and is not (yet) meant to represent my capabilities as a developer!
               I am busy working on projects for clients, but perhaps soon I will build this page up some more.
             </Text>
             <Text>
