@@ -35,7 +35,7 @@ export const globalStyles = {
       text: "#7A7A7A",
       accent: "#61CE70",
       a: "#30316A",
-      b: "#8DBFE0",
+      b: "#181836",
       c: "#233DFF",
 
       test:'linear(0deg,  #271457, #3c2283)',

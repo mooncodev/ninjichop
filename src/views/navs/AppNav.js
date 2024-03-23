@@ -10,7 +10,7 @@ import {NavLink, Outlet, useLocation, useNavigate,} from 'react-router-dom';
 import {FaUserCircle} from 'react-icons/fa';
 // import { useAtom } from 'jotai';
 // import { appNavDrawerOpenAtom } from '../../services/atoms.js';
-import BrandLogoTitle from "assets/title-caps.svg";
+import BrandLogoTitle from "assets/title-logo.png";
 import BrandLogo from "assets/logos/brand-logo.svg";
 // import { CISVG_FrogeNavBack } from '../../assets/Brand.js';
 import {appState, useAppStore} from '../../services/useAppStore.js';

@@ -1,10 +1,10 @@
 {
-    "name": "kzm-app",
+    "name": "nchop-app",
     "version": "0.0.1",
     "private": true,
     "scripts": {
-        "kzmNfyDev": "netlify dev NODE_ENV=development",
-        "kzmNfyProdBuild": "netlify build NODE_ENV=production",
+        "nchopDev": "netlify dev NODE_ENV=development",
+        "nchopNfyProdBuild": "netlify build NODE_ENV=production",
         "dev": "craco start NODE_ENV=development",
         "build": "craco build NODE_ENV=production",
         "test": "craco test --env=jsdom",

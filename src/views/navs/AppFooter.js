@@ -4,8 +4,8 @@ import {Flex, Image, Link, List, ListItem, Text} from "@chakra-ui/react";
 import PropTypes from "prop-types";
 import {NavLink, useNavigate} from 'react-router-dom';
 import {HFlex, HFlexCC, VFlexCS} from "../bits/UtilityTags";
-import BrandLogo from "../../assets/logo-km.svg";
-import BrandLogoTitle from "../../assets/title-caps-512.png";
+import BrandLogo from "assets/title-logo.png";
+import BrandLogoTitle from "assets/title-logo.png";
 import DiscordPng from 'assets/SMIcons/Discord.png'
 import FacebookPng from 'assets/SMIcons/Facebook.png'
 import InstagramPng from 'assets/SMIcons/Instagram.png'
@@ -47,7 +47,7 @@ export default function AppFooter(props) {
               {/*   to="/" */}
               {/*   target="_parent" */}
               {/* > */}
-              {"Krypto Merchant"}
+              {"Ninjichop LLC"}
               {/* </Link> */}
             </Text>
 
