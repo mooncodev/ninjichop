@@ -75,6 +75,8 @@ export default function PgLanding() {
               <ListItem>Mongoose</ListItem>
               <ListItem>Brand Asset Procurement</ListItem>
               <ListItem>Architectural Design</ListItem>
+              <ListItem>Smart Contract Development</ListItem>
+              <ListItem>Web3/DApp Functionality</ListItem>
             </UnorderedList>
             <HFlex flexWrap='wrap' justify='center' gap='15px'>
               {/*<Button as={Link} variant='feature' isExternal*/}
